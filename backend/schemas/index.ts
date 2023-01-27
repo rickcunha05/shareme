@@ -1,5 +1,10 @@
+import pin from "./pin";
+import save from "./save";
 import user from "./user";
 
 export const schemaTypes = [
-    user
+    user,
+    pin,
+    save,
+    document
 ]
